@@ -1,0 +1,22 @@
+
+td, th{
+    text-align: center;
+    border: 2px solid black;
+    height: 25px;
+    border-collapse: collapse;
+   
+}
+table{
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    box-shadow: 10px 5px 5px black;
+}
+tr:nth-child(even) {
+    background-color: deepskyblue;
+  }
+  tr:hover{
+    background-color:pink;
+    transform: scale(1.01);
+  }
+
